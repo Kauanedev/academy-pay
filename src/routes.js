@@ -1,12 +1,12 @@
 const express = require('express');
 
-const { filterLogin } = require('./middlewares/filterLogin.js');
+const {filterLogin} = require('./middlewares/filterLogin.js');
 const validateReq = require('./middlewares/validateReq.js');
 
-const { registerUser, loginUser, editUser, getUser } = require('./controllers/user.js');
-const { registerClient, listClients, getClient, editClient } = require('./controllers/client.js');
-const { billingClient, listBills, listClientBills, editClientBill, getBill, deleteBill } = require('./controllers/billing.js');
-const { homePage } = require('./controllers/homePage.js');
+const {registerUser, loginUser, editUser, getUser} = require('./controllers/user.js');
+const {registerClient, listClients, getClient, editClient} = require('./controllers/client.js');
+const {billingClient, listBills, listClientBills, editClientBill, getBill, deleteBill} = require('./controllers/billing.js');
+const {homePage} = require('./controllers/homePage.js');
 
 const registerSchema = require('./schema/registerSchema.js');
 const loginSchema = require('./schema/loginSchema.js');
@@ -22,21 +22,21 @@ router.post('/login', validateReq(loginSchema), loginUser);
 
 router.use(filterLogin);
 
-router.put('/editUser/:id', validateReq(editUserSchema), editUser);
-router.get('/getUser/:id', getUser);
+router.put('/editUser/:idUser', validateReq(editUserSchema), editUser);
+router.get('/getUser/:idUser', getUser);
 
-router.post('/registerClient/:id', validateReq(clientSchema), registerClient);
-router.get('/listClients/:id', listClients)
-router.get('/getClient/:id', getClient)
-router.put('/editClient/:id', validateReq(editClientSchema), editClient)
+router.post('/registerClient/:idUser', validateReq(clientSchema), registerClient);
+router.get('/listClients/:idUser', listClients)
+router.get('/getClient/:idUser', getClient)
+router.put('/editClient/:idUser', validateReq(editClientSchema), editClient)
 
 router.post('/registerBilling/:idUser/:idClient', validateReq(billingSchema), billingClient)
-router.put('/editBilling/:id', editClientBill)
+router.put('/editBilling/:idBill', editClientBill)
 router.get('/listBills/:idUser', listBills)
 router.get('/getBill/:idBill', getBill)
 router.get('/listClientBills/:idUser/:idClient', listClientBills)
 router.delete('/deleteBill/:idBill', deleteBill)
 
-router.get('/homepage/:id', homePage)
+router.get('/homepage/:idUser', homePage)
 
 module.exports = router;

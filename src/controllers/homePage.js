@@ -7,7 +7,7 @@ const currentDateUTC3 = new Date(formattedDate);
 
 
 const homePage = async (req, res) => {
-    const { id: user_id } = req.params
+    const {idUser: user_id} = req.params
 
     const arrayPayingClients = []
     const arrayOverdueClients = []
@@ -21,12 +21,12 @@ const homePage = async (req, res) => {
     let valueOverdueBills = 0;
 
     try {
-        const clients = await knex('clients').where({ user_id })
+        const clients = await knex('clients').where({user_id})
 
         for (let i = 0; i < clients.length; i++) {
             clients[i].status = 'EM DIA';
 
-            const bills = await knex('billing').where({ client_id: clients[i].id });
+            const bills = await knex('billing').where({client_id: clients[i].id});
 
             for (const bill of bills) {
                 if (bill.due_date < currentDateUTC3 && (bill.status !== 'PAGA')) {
@@ -69,9 +69,9 @@ const homePage = async (req, res) => {
         }
 
         const arrayBills = {
-            payed: { value: valuePayedBills, bills: arrayPayedBills },
-            pending: { value: valuePendingBills, bills: arrayPendingBills },
-            overdue: { value: valueOverdueBills, bills: arrayOverdueBills }
+            payed: {value: valuePayedBills, bills: arrayPayedBills},
+            pending: {value: valuePendingBills, bills: arrayPendingBills},
+            overdue: {value: valueOverdueBills, bills: arrayOverdueBills}
         }
 
         const response = {
@@ -82,7 +82,7 @@ const homePage = async (req, res) => {
         return res.status(200).json(response)
 
     } catch (error) {
-        return res.status(400).json({ message: "Erro interno do servidor", error: error.message })
+        return res.status(400).json({message: "Erro interno do servidor", error: error.message})
     }
 }
 

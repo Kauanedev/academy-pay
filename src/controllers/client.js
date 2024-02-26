@@ -1,7 +1,7 @@
 const knex = require("../database");
 
 const registerClient = async (req, res) => {
-  const {id: user_id} = req.params;
+  const {idUser: user_id} = req.params;
 
   const {
     name,
@@ -56,7 +56,7 @@ const registerClient = async (req, res) => {
 };
 
 const listClients = async (req, res) => {
-  const {id: user_id} = req.params;
+  const {idUser: user_id} = req.params;
 
   try {
     const currentDate = new Date();
@@ -89,7 +89,7 @@ const listClients = async (req, res) => {
 
 
 const getClient = async (req, res) => {
-  const {id} = req.params;
+  const {idUser: id} = req.params;
 
   try {
     const client = await knex("clients").where({id}).first();
@@ -110,7 +110,7 @@ const getClient = async (req, res) => {
 }
 
 const editClient = async (req, res) => {
-  const {id: user_id} = req.params;
+  const {idUser: user_id} = req.params;
   const {
     id: client_id,
     name,
