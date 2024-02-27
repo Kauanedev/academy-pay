@@ -76,7 +76,7 @@ Academy Pay is a solution designed to meet the financial management needs of com
 ## 🏃‍♀️ Run the project
 </p>
 
-#### 🎲 Run Backend
+### 🎲 Run Backend
 💡 try the deployed version: https://backend-devastados.vercel.app/
 ```bash
 
@@ -97,7 +97,7 @@ $ npm run dev
 
 ```
 
-#### 🧭 Run Frontend
+### 🧭 Run Frontend
 💡 try the deployed version: https://desafio-final-front-dds-t12-omega.vercel.app/
 ```bash
 
