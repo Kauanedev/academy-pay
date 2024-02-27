@@ -1,9 +1,9 @@
-# Academy Pay (Backend)
+# Academy Pay
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Kauanedev/academy-pay-back?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Kauanedev/academy-pay?color=%2304D361">
   
   <a href="https://github.com/Kauanedev/din-din-project/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Kauanedev/academy-pay-back">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Kauanedev/academy-pay">
   </a>
 </p>
 
@@ -11,23 +11,56 @@
   <img alt="Postgresql" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
     <img alt="Javascript" src="https://img.shields.io/badge/Javascript-0d1b2a?style=for-the-badge&logo=javascript">
     <img alt="ExpressJs" src="https://img.shields.io/badge/express-ffd000?style=for-the-badge&logo=express">
+<img alt="React" src="https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react">
 </p>
+
+<h1 align="center">
+    <img alt="LOGIN PAGE" title="#LOGIN PAGE" src="assets\login-page.png" />
+</h1>
+
+
 <h4 align="center"> 
 💸 Academy Pay 💸
 </h4>
 
 <p align="center">
  <a href="#about">About</a> •
+<a href="#functionalities">Functionalities</a> •
   <a href="#run">Run the project</a> •
   <a href="tecnologies">Tecnolgies<a/> •
  <a href="#endpoints">API Endpoints</a> •
  <a href="#colab">Collaborators</a> •
+<a href="#deploy">Deployed version</a> •
 </p>
 
 ## 💻 About the project
 <p id="about">
 🤑Academy Pay is a solution designed to meet the financial management needs of commercial establishments. It provides a safe and efficient platform for registering customers and organizing the accounts associated with each of them. Owners find this tool an effective resource for transparent management and detailed monitoring of customer transactions.
 </p>
+
+
+
+<p id="functionalities">
+
+ ## ⚙️ Functionalities
+</p>
+
+
+- Register user <br/>
+- Register client <br/>
+  <h1 align="center">
+   <img alt="Register Client" title="#Register Client" src="assets\register-client.png" />
+</h1>
+- Register client charges <br/>
+  <h1 align="center">
+   <img alt="Register Chrges" title="#Register Charges" src="assets\register-billing.png" />
+</h1>
+- Validation system for dates and due dates <br/>
+- Update user and client records <br/>
+- General financial tracking <br/>
+<h1 align="center">
+    <img alt="LOGIN PAGE" src="assets\home-page.png" />
+</h1>
 
 
 <p id="run">
@@ -41,23 +74,40 @@
 
  
 # Clone this repository:
-$ git clone git@github.com:Kauanedev/academy-pay-back.git
+$ git clone git@github.com:Kauanedev/academy-pay.git
 
-
-# Go to server folder
+# Go to server folder:
 $ cd server
 
-# Install dependencies
+# Install dependencies:
 $ npm install
 
-# Run the app in the development mode.
+# Run the app in the development mode
 $ npm run dev
+
+# Server will start on port:3000
+
+```
+
+#### 🧭 Run Frontend
+
+```bash
+
+# Clone this repository:
+$ git clone git@github.com:Kauanedev/academy-pay.git
+
+# Go to frontend folder:
+$ cd frontend
+
+# Install dependencies:
+$ npm install
+
+# Run the app in the development mode:
+$ npm run start
 
 # Server will start on port:3000 - Open ~ http://localhost:3000 ~ to view it in your browser.
 
 ```
-
-
 <p id="tecnologies">
   
   ## 🛠 Tecnologies 
@@ -259,6 +309,17 @@ This is the team that made it all happen: 💜
 
   </tr>
 </table>
+
+<p id="deploy">
+
+## 🚀 Deployed Application
+<p/>
+
+  Visit our project and try it for yourself:
+</p>
+
+🖥️[Frontend](https://desafio-final-front-dds-t12-omega.vercel.app/sign-in)
+🎲[Backend](https://backend-devastados.vercel.app/)	
 
 
 Feito com 💓 por Kauane Santos 👋 [Entre em contato!](https://www.linkedin.com/in/kauane-santos-dev/)
