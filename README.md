@@ -288,7 +288,7 @@ $ npm run start
 
 #### **Utilities** 
 
--   Figma:  **[Figma](https://www.figma.com/)**  →  **[Protótipo](https://www.figma.com/file/EsX2ltIJ6gSGFzXXCU1pQH/M05-SPRINT-03?type=design&node-id=410-47347&mode=design&t=M4n4IHXTH8lNe2cO-0)**
+-   Figma:  **[Figma](https://www.figma.com/)**  →  **[Prototype](https://www.figma.com/file/EsX2ltIJ6gSGFzXXCU1pQH/M05-SPRINT-03?type=design&node-id=410-47347&mode=design&t=M4n4IHXTH8lNe2cO-0)**
 -   API:  **[API](https://backend-devastados.vercel.app/)**
 -   Source-Code Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
 -   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
