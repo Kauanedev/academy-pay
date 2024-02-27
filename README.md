@@ -338,4 +338,4 @@ This is the dream team that made it all happen: 💜
 
 This project is under license [MIT](./LICENSE).
 
-Feito com 💓 por Kauane Santos 👋 [Entre em contato!](https://www.linkedin.com/in/kauane-santos-dev/)
+Made with 💓 by Kauane Santos 👋 [Contact me!](https://www.linkedin.com/in/kauane-santos-dev/)
