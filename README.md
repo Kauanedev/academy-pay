@@ -159,8 +159,8 @@ $ npm run start
 **REQUEST**  
 ```json
 {
-  "email":"teste02@gmail.com",
-  "password": "senha"
+  "email":"teste@gmail.com",
+  "password": "password"
 }
 ```
 
