@@ -36,7 +36,7 @@
 
 ## 💻 About the project
 <p id="about">
-🤑Academy Pay is a solution designed to meet the financial management needs of commercial establishments. It provides a safe and efficient platform for registering customers and organizing the accounts associated with each of them. Owners find this tool an effective resource for transparent management and detailed monitoring of customer transactions.
+Academy Pay is a solution designed to meet the financial management needs of commercial establishments. It provides a safe and efficient platform for registering customers and organizing the accounts associated with each of them. Owners find this tool an effective resource for transparent management and detailed monitoring of customer transactions.
 </p>
 
 
@@ -77,7 +77,7 @@
 </p>
 
 #### 🎲 Run Backend
-
+💡 try the deployed version: https://backend-devastados.vercel.app/
 ```bash
 
  
@@ -98,7 +98,7 @@ $ npm run dev
 ```
 
 #### 🧭 Run Frontend
-
+💡 try the deployed version: https://desafio-final-front-dds-t12-omega.vercel.app/
 ```bash
 
 # Clone this repository:
