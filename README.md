@@ -24,13 +24,14 @@
 </h4>
 
 <p align="center">
- <a href="#about">About</a> •
+<a href="#about">About</a> •
 <a href="#functionalities">Functionalities</a> •
-  <a href="#run">Run the project</a> •
-  <a href="tecnologies">Tecnolgies<a/> •
- <a href="#endpoints">API Endpoints</a> •
- <a href="#colab">Collaborators</a> •
+<a href="#run">Run the project</a> •
+<a href="#endpoints">API Endpoints</a> •
+<a href="tecnologies">Tecnolgies<a/> •
+<a href="#colab">Collaborators</a> •
 <a href="#deploy">Deployed version</a> •
+<a href="#license">License</a>
 </p>
 
 ## 💻 About the project
@@ -46,20 +47,27 @@
 </p>
 
 
-- Register user <br/>
-- Register client <br/>
+- Register user
+- Register client
+- Register client charges
+- Validation system for dates and due dates 
+- Update user and client records
+- General financial tracking
+
+### Web
+  
   <h1 align="center">
-   <img alt="Register Client" title="#Register Client" src="assets\register-client.png" />
+   <img alt="Register Client" src="assets\register-client.png" />
 </h1>
-- Register client charges <br/>
   <h1 align="center">
-   <img alt="Register Chrges" title="#Register Charges" src="assets\register-billing.png" />
+   <img alt="Register Chrges" src="assets\register-billing.png" />
 </h1>
-- Validation system for dates and due dates <br/>
-- Update user and client records <br/>
-- General financial tracking <br/>
 <h1 align="center">
-    <img alt="LOGIN PAGE" src="assets\home-page.png" />
+    <img alt="Billing Page" src="assets\billing-page.png" />
+</h1>
+
+<h1 align="center">
+    <img alt="Home Page" src="assets\home-page.png" />
 </h1>
 
 
@@ -108,41 +116,6 @@ $ npm run start
 # Server will start on port:3000 - Open ~ http://localhost:3000 ~ to view it in your browser.
 
 ```
-<p id="tecnologies">
-  
-  ## 🛠 Tecnologies 
-</p>
-
-#### **Website**  ([React](https://reactjs.org/))
-
--   **[Chakra UI](https://chakra-ui.com/)**
--   **[Axios](https://axios-http.com/ptbr/docs/intro)**
--   **[Framer Motion](https://www.framer.com/motion/)**
--   **[Crypto JS](https://github.com/brix/crypto-js)**
--   **[React Router Dom](https://reactrouter.com/en/main)**
-
-#### **Server**  ([NodeJS](https://nodejs.org/en/))
-
--   **[Axios](https://axios-http.com/ptbr/docs/intro)**
--   **[Bcript](https://github.com/kelektiv/node.bcrypt.js#readme)**
--   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
--   **[dotENV](https://github.com/motdotla/dotenv)**
--   **[Express](https://expressjs.com/)**
--   **[KnexJS](http://knexjs.org/)**
--   **[Joi](https://joi.dev/)**
--   **[JSON webToken](https://jwt.io/)**
--   **[Knex](https://knexjs.org/)**
-
-#### **Utilities** 
-
--   Figma:  **[Figma](https://www.figma.com/)**  →  **[Protótipo](https://www.figma.com/file/EsX2ltIJ6gSGFzXXCU1pQH/M05-SPRINT-03?type=design&node-id=410-47347&mode=design&t=M4n4IHXTH8lNe2cO-0)**
--   API:  **[API](https://backend-devastados.vercel.app/)**
--   Source-Code Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
--   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
--   API Client:  **[Insomnia](https://insomnia.rest/)**
--   Icons:  **[Chakra Ui Icons](https://chakra-ui.com/docs/components/icon)**
--   Fonts:  **[Nunito](https://fonts.google.com/specimen/Nunito)**,  **[Montserrat](https://fonts.google.com/specimen/Montserrat?query=montse)**
----
 
 <p id="endpoints">
   
@@ -288,11 +261,48 @@ $ npm run start
 }
 ```
 
+<p id="tecnologies">
+  
+  ## 🛠 Tecnologies 
+</p>
+
+#### **Website**  ([React](https://reactjs.org/))
+
+-   **[Chakra UI](https://chakra-ui.com/)**
+-   **[Axios](https://axios-http.com/ptbr/docs/intro)**
+-   **[Framer Motion](https://www.framer.com/motion/)**
+-   **[Crypto JS](https://github.com/brix/crypto-js)**
+-   **[React Router Dom](https://reactrouter.com/en/main)**
+
+#### **Server**  ([NodeJS](https://nodejs.org/en/))
+
+-   **[Axios](https://axios-http.com/ptbr/docs/intro)**
+-   **[Bcript](https://github.com/kelektiv/node.bcrypt.js#readme)**
+-   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   **[dotENV](https://github.com/motdotla/dotenv)**
+-   **[Express](https://expressjs.com/)**
+-   **[KnexJS](http://knexjs.org/)**
+-   **[Joi](https://joi.dev/)**
+-   **[JSON webToken](https://jwt.io/)**
+-   **[Knex](https://knexjs.org/)**
+
+#### **Utilities** 
+
+-   Figma:  **[Figma](https://www.figma.com/)**  →  **[Protótipo](https://www.figma.com/file/EsX2ltIJ6gSGFzXXCU1pQH/M05-SPRINT-03?type=design&node-id=410-47347&mode=design&t=M4n4IHXTH8lNe2cO-0)**
+-   API:  **[API](https://backend-devastados.vercel.app/)**
+-   Source-Code Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
+-   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
+-   API Client:  **[Insomnia](https://insomnia.rest/)**
+-   Icons:  **[Chakra Ui Icons](https://chakra-ui.com/docs/components/icon)**
+-   Fonts:  **[Nunito](https://fonts.google.com/specimen/Nunito)**,  **[Montserrat](https://fonts.google.com/specimen/Montserrat?query=montse)**
+---
+
+
 <p id="colab">
  
   ## 🤝 Collaborators
 </p>
-This is the team that made it all happen: 💜 
+This is the dream team that made it all happen: 💜 
 
 <table>
   <tr>
@@ -321,5 +331,11 @@ This is the team that made it all happen: 💜
 🖥️[Frontend](https://desafio-final-front-dds-t12-omega.vercel.app/sign-in)
 🎲[Backend](https://backend-devastados.vercel.app/)	
 
+<p id="license">
+	
+## 📝 Licese
+</p>
+
+This project is under license [MIT](./LICENSE).
 
 Feito com 💓 por Kauane Santos 👋 [Entre em contato!](https://www.linkedin.com/in/kauane-santos-dev/)
