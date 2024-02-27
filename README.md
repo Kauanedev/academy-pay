@@ -13,12 +13,19 @@
     <img alt="ExpressJs" src="https://img.shields.io/badge/express-ffd000?style=for-the-badge&logo=express">
 <img alt="React" src="https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react">
 </p>
+
+<h1 align="center">
+    <img alt="LOGIN PAGE" title="#LOGIN PAGE" src="assets\login-page.png" />
+</h1>
+
+
 <h4 align="center"> 
 💸 Academy Pay 💸
 </h4>
 
 <p align="center">
  <a href="#about">About</a> •
+<a href="#functionalities">Functionalities</a> •
   <a href="#run">Run the project</a> •
   <a href="tecnologies">Tecnolgies<a/> •
  <a href="#endpoints">API Endpoints</a> •
@@ -30,6 +37,30 @@
 <p id="about">
 🤑Academy Pay is a solution designed to meet the financial management needs of commercial establishments. It provides a safe and efficient platform for registering customers and organizing the accounts associated with each of them. Owners find this tool an effective resource for transparent management and detailed monitoring of customer transactions.
 </p>
+
+
+
+<p id="functionalities">
+
+ ## ⚙️ Functionalities
+</p>
+
+
+- Register user <br/>
+- Register client <br/>
+  <h1 align="center">
+   <img alt="Register Client" title="#Register Client" src="assets\register-client.png" />
+</h1>
+- Register client charges <br/>
+  <h1 align="center">
+   <img alt="Register Chrges" title="#Register Charges" src="assets\register-billing.png" />
+</h1>
+- Validation system for dates and due dates <br/>
+- Update user and client records <br/>
+- General financial tracking <br/>
+<h1 align="center">
+    <img alt="LOGIN PAGE" src="assets\home-page.png" />
+</h1>
 
 
 <p id="run">
