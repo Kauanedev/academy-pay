@@ -298,7 +298,6 @@ $ npm run start
 -   Figma:  **[Figma](https://www.figma.com/)**  →  **[Prototype](https://www.figma.com/file/EsX2ltIJ6gSGFzXXCU1pQH/M05-SPRINT-03?type=design&node-id=410-47347&mode=design&t=M4n4IHXTH8lNe2cO-0)**
 -   API:  **[API](https://backend-devastados.vercel.app/)**
 -   Source-Code Editor:  **[Visual Studio Code](https://code.visualstudio.com/)** 
--   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
 -   API Client:  **[Insomnia](https://insomnia.rest/)**
 -   Icons:  **[Chakra Ui Icons](https://chakra-ui.com/docs/components/icon)**
 -   Fonts:  **[Nunito](https://fonts.google.com/specimen/Nunito)**,  **[Montserrat](https://fonts.google.com/specimen/Montserrat?query=montse)**
