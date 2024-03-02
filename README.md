@@ -8,10 +8,18 @@
 </p>
 
 <p align="center">
-  <img alt="Postgresql" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-    <img alt="Javascript" src="https://img.shields.io/badge/Javascript-0d1b2a?style=for-the-badge&logo=javascript">
-    <img alt="ExpressJs" src="https://img.shields.io/badge/express-ffd000?style=for-the-badge&logo=express">
-<img alt="React" src="https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react">
+	<img alt="Javascript" src="https://img.shields.io/badge/Javascript-0d1b2a?style=for-the-badge&logo=javascript">
+	<img alt="Postgresql" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+	<img alt="ExpressJs" src="https://img.shields.io/badge/express-ffd000?style=for-the-badge&logo=express">
+	<img src = "https://img.shields.io/badge/Knex.js-D26B38.svg?style=for-the-badge&logo=knexdotjs&logoColor=white"/>  
+	<img src = "https://img.shields.io/badge/.ENV-ECD53F.svg?style=for-the-badge&logo=dotenv&logoColor=black"/>  
+	<img src = "https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink"/>
+	<img src = "https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge&logo=Axios&logoColor=white"/>  
+	<img alt="React" src="https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react">
+    	<img src = "https://img.shields.io/badge/React%20Router-CA4245.svg?style=for-the-badge&logo=React-Router&logoColor=white"/>  
+	<img src = "https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white"/>  
+	<img src = "https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white"/>  
+	<img src = "https://img.shields.io/badge/Chakra%20UI-319795.svg?style=for-the-badge&logo=Chakra-UI&logoColor=white"/>  
 </p>
 
 <h1 align="center">
@@ -284,7 +292,6 @@ $ npm run start
 -   **[KnexJS](http://knexjs.org/)**
 -   **[Joi](https://joi.dev/)**
 -   **[JSON webToken](https://jwt.io/)**
--   **[Knex](https://knexjs.org/)**
 
 #### **Utilities** 
 
