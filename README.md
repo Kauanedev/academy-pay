@@ -2,7 +2,7 @@
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Kauanedev/academy-pay?color=%2304D361">
   
-  <a href="https://github.com/Kauanedev/din-din-project/commits/main">
+  <a>
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Kauanedev/academy-pay">
   </a>
 </p>
