@@ -92,6 +92,9 @@ Academy Pay is a solution designed to meet the financial management needs of com
 # Clone this repository:
 $ git clone git@github.com:Kauanedev/academy-pay.git
 
+# Access the project folder:
+$ cd academy-pay 
+
 # Go to server folder:
 $ cd server
 
@@ -111,6 +114,9 @@ $ npm run dev
 
 # Clone this repository:
 $ git clone git@github.com:Kauanedev/academy-pay.git
+
+# Access the project folder:
+$ cd academy-pay
 
 # Go to frontend folder:
 $ cd frontend
