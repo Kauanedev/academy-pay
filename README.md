@@ -318,19 +318,40 @@ This is the dream team that made it all happen: 💜
 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/Kauanedev"><img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4E03AQE8gv40ZhO8ww/profile-displayphoto-shrink_200_200/0/1680386723608?e=1714003200&v=beta&t=sNOFcWeNpaJMxV7lMfxfHDaWzAVxz0GfprxS_I0i6DI" width="100px;" alt=""/><br /><sub><b>Kauane Santos</b></sub></a><br /><a href="https://github.com/Kauanedev" >💫</a></td>
-
-<td align="center"><a href="https://github.com/SchneiderMurilo"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/129790001?v=4" width="100px;" alt=""/><br /><sub><b>Murilo Schneider</b></sub></a><br /><a href="https://github.com/SchneiderMurilo" >👨‍💻</a></td>
-    
-<td align="center"><a href="https://github.com/LuizDevExe"><img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4D03AQErTbo1oWSLaA/profile-displayphoto-shrink_800_800/0/1702061663832?e=1714003200&v=beta&t=yevdEw4MHro-1zXXbV9itcVyunO3Zni0_tCTS4LN848" width="100px;" alt=""/><br/><sub><b>Luiz Pedro</b></sub></a><br/> <a href="https://github.com/LuizDevExe">👨‍💻</a></td>
-
-    
-<td align="center"><a href="https://github.com/JefersonVM"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62728162?v=4" width="100px;" alt=""/><br /><sub><b>Jeferson Vieira</b></sub></a><br /><a href="https://github.com/JefersonVM" >👨‍💻</a></td>
-
-<td align="center"><a href="https://github.com/gabrielnfarias"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/105251567?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Navarro Farias</b></sub></a><br /><a href="https://github.com/gabrielnfarias" >👨‍💻</a></td>
-
+    <td align="center">
+      <a href="https://www.linkedin.com/in/kauane-santos-dev/">
+        <img src="https://github.com/Kauanedev.png" width="100px;"; alt="perfil kau"/><br/>
+        <sub> Kauane Santos <sub/>
+        <a/>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SchneiderMurilo">
+        <img src="https://avatars.githubusercontent.com/u/129790001?v=4" width="100px;" ; alt="perfil Murilo"/><br/>
+        <sub> Murilo Schneider 👨‍💻 <sub/>
+        <a/>
+    </td>
+    <td align="center">
+      <a href="https://github.com/LuizDevExe">
+        <img src="https://avatars.githubusercontent.com/u/109562299?v=4" width="100px;"; alt="perfil Murilo"/><br/>
+        <sub> Luiz Pedro 👨‍💻 <sub/>
+        <a/>
+    </td>
+      <td align="center">
+      <a href="https://github.com/JefersonVM">
+        <img src="https://avatars.githubusercontent.com/u/62728162?v=4" width="100px;"; alt="perfil Murilo"/><br/>
+        <sub> Jeferson Vieira  👨‍💻 <sub/>
+        <a/>
+    </td>
+      </td>
+      <td align="center">
+      <a href="https://github.com/gabrielnfarias" >
+        <img src="https://avatars.githubusercontent.com/u/105251567?v=4" width="100px;" style="border-radius: 50%"; alt="perfil Murilo"/><br/>
+        <sub> Gabriel Navarro  👨‍💻 <sub/>
+        <a/>
+    </td>
   </tr>
 </table>
+
 
 <p id="deploy">
 
